@@ -1,102 +1,71 @@
 
-````markdown
-# 🛍️ E-commerce Website
+```markdown
+# Student Management Website
 
-This is a modern, responsive E-commerce web application built with **React**, **TypeScript**, and **Tailwind CSS**. It offers a seamless shopping experience with features like a product catalog, shopping cart, product detail view, and a simple checkout process.
+A modern, responsive web application designed to manage student data, attendance, grades, documents, and communication within an academic institution. Built using **React**, **TypeScript**, and **Tailwind CSS**, the system offers a clean UI and role-based access for administrators and students.
 
----
+## 🚀 Features
 
-## 🔧 Technologies Used
+- 🔐 Authentication system with login & password reset (AuthContext)
+- 📚 Course and student management
+- 📈 Attendance and grades tracking
+- 📄 Document uploads and announcements
+- 📊 Dashboard with real-time data views
+- 📁 Modular and maintainable file structure
+- ⚙️ Configured with Vite, ESLint, Tailwind, and PostCSS
 
-- ⚛️ React (with Vite)
-- 🟦 TypeScript
-- 💨 Tailwind CSS
-- 🛒 Context API (for state management)
-- 🔄 React Router
-- 🖼️ Dynamic product rendering
-- 📦 Local storage (for cart persistence)
+## 📂 Tech Stack
 
----
+- **Frontend**: React, TypeScript, Vite
+- **Styling**: Tailwind CSS
+- **State Management**: React Context API
+- **Linting**: ESLint
+- **Routing**: React Router
+- **Build Tools**: PostCSS, Vite
 
-## ✨ Features
+## 🖼️ Screenshots
 
-- ✅ Responsive layout
-- ✅ Product listing with details
-- ✅ Add/remove items to cart
-- ✅ Shopping cart page
-- ✅ Checkout page
-- ✅ Carousel for featured products
-- ✅ Modular and reusable components
+- Interface of the website:  
+  ![Interface](https://github.com/Sunny-commit/Sunny-commit-student-management-website/blob/main/Screenshot%20(24).PNG)
 
----
+- After logging in:  
+  ![After Login](https://github.com/Sunny-commit/Sunny-commit-student-management-website/blob/main/Screenshot%20(25).PNG)
 
-## 🚀 Getting Started
+- Announcements view:  
+  ![Announcements](https://github.com/Sunny-commit/Sunny-commit-student-management-website/blob/main/Screenshot%20(26).PNG)
 
-1. **Clone the repository:**
+## 📁 Project Structure (simplified)
 
-```bash
-git clone https://github.com/Sunny-commit/ecommerce-website.git
-cd ecommerce-website/project
+```
+
+src/
+├── contexts/          # Auth context
+├── data/              # Mock student/course data
+├── layouts/           # Layout components
+├── pages/             # Auth & Dashboard pages
+├── routes/            # Routing config
+├── types/             # TypeScript types
+├── App.tsx            # App entry
+├── main.tsx           # Vite main file
+
 ````
 
-2. **Install dependencies:**
+## 📦 Installation
 
 ```bash
 npm install
-```
-
-3. **Start the development server:**
-
-```bash
 npm run dev
-```
+````
 
-4. Visit [http://localhost:3000](http://localhost:3000) in your browser.
+## 🧠 Future Enhancements
 
----
-
-## 📁 Project Structure
-
-```
-project/
-├── public/
-├── src/
-│   ├── components/
-│   ├── context/
-│   ├── data/
-│   ├── pages/
-│   ├── types/
-│   └── main.tsx
-├── package.json
-└── README.md
-```
-
----
-
-## 📸 Screenshots
----> Interface of the E-commerce website image
-https://github.com/Sunny-commit/E-Commerce-website-for-Micro-IT/blob/main/Screenshot%20(23).PNG
----> Website shopping face image
-https://github.com/Sunny-commit/E-Commerce-website-for-Micro-IT/blob/main/Screenshot%20(22).PNG
-
-
-
----
-
-## 🌐 Deployment
-
-> Optionally deployed using [Vercel](https://vercel.com) or [GitHub Pages](https://pages.github.com)
-
----
-
-## 👨‍💻 Author
-
-**Sunny-commit**
-🔗 [GitHub](https://github.com/Sunny-commit)
-
----
+* Admin and student roles with RBAC
+* Integration with backend API
+* Notifications and messaging system
+* Theme switcher and accessibility improvements
 
 ## 📜 License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the MIT License.
 
+```
