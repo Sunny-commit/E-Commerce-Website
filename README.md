@@ -74,7 +74,9 @@ project/
 ---
 
 ## 📸 Screenshots
-
+---> Interface of the E-commerce website image
+https://github.com/Sunny-commit/E-Commerce-website-for-Micro-IT/blob/main/Screenshot%20(23).PNG
+---> Website shopping face image
 https://github.com/Sunny-commit/E-Commerce-website-for-Micro-IT/blob/main/Screenshot%20(22).PNG
 
 
