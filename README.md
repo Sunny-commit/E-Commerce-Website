@@ -75,9 +75,9 @@ project/
 
 ## 📸 Screenshots
 
-![Screenshot (23)](https://github.com/user-attachments/assets/0aed9ace-2d27-40fa-8361-a504c5fe92d9)
+https://github.com/Sunny-commit/E-Commerce-website-for-Micro-IT/blob/main/Screenshot%20(22).PNG
 
-![Screenshot (22)](https://github.com/user-attachments/assets/ab29ccbf-f229-4a21-91a2-c06a57c397b3)
+
 
 ---
 
