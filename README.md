@@ -37,7 +37,6 @@ A modern, responsive web application designed to manage student data, attendance
 ## 📁 Project Structure (simplified)
 
 ```
-
 src/
 ├── contexts/          # Auth context
 ├── data/              # Mock student/course data
