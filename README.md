@@ -1,5 +1,4 @@
 
-```markdown
 # Student Management Website
 
 A modern, responsive web application designed to manage student data, attendance, grades, documents, and communication within an academic institution. Built using **React**, **TypeScript**, and **Tailwind CSS**, the system offers a clean UI and role-based access for administrators and students.
@@ -36,7 +35,7 @@ A modern, responsive web application designed to manage student data, attendance
 
 ## 📁 Project Structure (simplified)
 
-```
+```text
 src/
 ├── contexts/          # Auth context
 ├── data/              # Mock student/course data
@@ -46,7 +45,6 @@ src/
 ├── types/             # TypeScript types
 ├── App.tsx            # App entry
 ├── main.tsx           # Vite main file
-
 ````
 
 ## 📦 Installation
@@ -54,7 +52,7 @@ src/
 ```bash
 npm install
 npm run dev
-````
+```
 
 ## 🧠 Future Enhancements
 
